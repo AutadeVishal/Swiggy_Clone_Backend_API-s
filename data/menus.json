@@ -1,0 +1,1040 @@
+{
+  "1": {
+    "restaurantId": 1,
+    "restaurantName": "The Curry Palace",
+    "categories": [
+      {
+        "id": "cat_1_1",
+        "name": "Recommended",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_1_1",
+            "name": "Paneer Butter Masala",
+            "price": 280,
+            "description": "Rich and creamy paneer in tomato gravy with Indian spices",
+            "imageId": "https://images.unsplash.com/photo-1631292784640-2b24be784d5d?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": true,
+            "rating": 4.6,
+            "ratingCount": 156,
+            "category": "Main Course"
+          },
+          {
+            "id": "item_1_2",
+            "name": "Chicken Biryani",
+            "price": 320,
+            "description": "Aromatic basmati rice with tender chicken and traditional spices",
+            "imageId": "https://images.unsplash.com/photo-1563379091339-03246963d51a?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.7,
+            "ratingCount": 203,
+            "category": "Main Course"
+          },
+          {
+            "id": "item_1_3",
+            "name": "Butter Naan",
+            "price": 80,
+            "description": "Soft Indian bread with butter",
+            "imageId": "https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 89,
+            "category": "Breads"
+          },
+          {
+            "id": "item_1_4",
+            "name": "Dal Makhani",
+            "price": 240,
+            "description": "Creamy black lentils cooked overnight with butter and cream",
+            "imageId": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 127,
+            "category": "Main Course"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "restaurantId": 2,
+    "restaurantName": "Burger World",
+    "categories": [
+      {
+        "id": "cat_2_1",
+        "name": "Bestsellers",
+        "itemCount": 3,
+        "items": [
+          {
+            "id": "item_2_1",
+            "name": "Cheese Burger",
+            "price": 180,
+            "description": "Juicy beef patty with cheese, lettuce, tomato and special sauce",
+            "imageId": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.4,
+            "ratingCount": 234,
+            "category": "Burgers"
+          },
+          {
+            "id": "item_2_2",
+            "name": "Crispy Chicken Burger",
+            "price": 220,
+            "description": "Crispy fried chicken with mayo and veggies",
+            "imageId": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.5,
+            "ratingCount": 189,
+            "category": "Burgers"
+          },
+          {
+            "id": "item_2_3",
+            "name": "Loaded Fries",
+            "price": 150,
+            "description": "French fries with cheese sauce and bacon bits",
+            "imageId": "https://images.unsplash.com/photo-1541592106381-b31e78637e5b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.3,
+            "ratingCount": 167,
+            "category": "Sides"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "restaurantId": 3,
+    "restaurantName": "Sushi Zen",
+    "categories": [
+      {
+        "id": "cat_3_1",
+        "name": "Bestsellers",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_3_1",
+            "name": "Salmon Sashimi",
+            "price": 450,
+            "description": "Fresh salmon slices with wasabi and pickled ginger",
+            "imageId": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.8,
+            "ratingCount": 156,
+            "category": "Sashimi"
+          },
+          {
+            "id": "item_3_2",
+            "name": "California Roll",
+            "price": 380,
+            "description": "Crab, avocado, cucumber wrapped in nori and rice",
+            "imageId": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.6,
+            "ratingCount": 198,
+            "category": "Sushi Rolls"
+          },
+          {
+            "id": "item_3_3",
+            "name": "Tempura Prawns",
+            "price": 420,
+            "description": "Crispy battered prawns with tempura sauce",
+            "imageId": "https://images.unsplash.com/photo-1606850503077-57c0f84b28fe?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.5,
+            "ratingCount": 134,
+            "category": "Tempura"
+          },
+          {
+            "id": "item_3_4",
+            "name": "Miso Soup",
+            "price": 180,
+            "description": "Traditional Japanese soup with tofu and seaweed",
+            "imageId": "https://images.unsplash.com/photo-1602385053470-1fab56bee4f4?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 87,
+            "category": "Soups"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "restaurantId": 4,
+    "restaurantName": "Pizza Paradise",
+    "categories": [
+      {
+        "id": "cat_4_1",
+        "name": "Bestsellers",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_4_1",
+            "name": "Margherita Pizza",
+            "price": 320,
+            "description": "Fresh mozzarella, tomato sauce, and basil",
+            "imageId": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": true,
+            "rating": 4.7,
+            "ratingCount": 245,
+            "category": "Pizza"
+          },
+          {
+            "id": "item_4_2",
+            "name": "Pepperoni Pizza",
+            "price": 380,
+            "description": "Classic pepperoni with mozzarella cheese",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.6,
+            "ratingCount": 189,
+            "category": "Pizza"
+          },
+          {
+            "id": "item_4_3",
+            "name": "Pasta Carbonara",
+            "price": 280,
+            "description": "Creamy pasta with bacon and parmesan",
+            "imageId": "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 134,
+            "category": "Pasta"
+          },
+          {
+            "id": "item_4_4",
+            "name": "Garlic Bread",
+            "price": 120,
+            "description": "Toasted bread with garlic butter and herbs",
+            "imageId": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 87,
+            "category": "Sides"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "restaurantId": 5,
+    "restaurantName": "Taco Haven",
+    "categories": [
+      {
+        "id": "cat_5_1",
+        "name": "Bestsellers",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_5_1",
+            "name": "Chicken Tacos",
+            "price": 220,
+            "description": "Grilled chicken with salsa, lettuce, and cheese",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.5,
+            "ratingCount": 178,
+            "category": "Tacos"
+          },
+          {
+            "id": "item_5_2",
+            "name": "Beef Burrito",
+            "price": 280,
+            "description": "Spiced beef with beans, rice, and vegetables",
+            "imageId": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.4,
+            "ratingCount": 156,
+            "category": "Burritos"
+          },
+          {
+            "id": "item_5_3",
+            "name": "Guacamole & Chips",
+            "price": 150,
+            "description": "Fresh avocado dip with tortilla chips",
+            "imageId": "https://images.unsplash.com/photo-1553037296-b6d4cb4d08e0?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 134,
+            "category": "Appetizers"
+          },
+          {
+            "id": "item_5_4",
+            "name": "Quesadilla",
+            "price": 200,
+            "description": "Cheese-filled tortilla with peppers",
+            "imageId": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 98,
+            "category": "Appetizers"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "restaurantId": 6,
+    "restaurantName": "Dim Sum Delight",
+    "categories": [
+      {
+        "id": "cat_6_1",
+        "name": "Bestsellers",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_6_1",
+            "name": "Pork Dumplings",
+            "price": 280,
+            "description": "Steamed dumplings filled with seasoned pork",
+            "imageId": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.7,
+            "ratingCount": 189,
+            "category": "Dim Sum"
+          },
+          {
+            "id": "item_6_2",
+            "name": "Har Gow (Shrimp Dumplings)",
+            "price": 320,
+            "description": "Translucent dumplings with fresh shrimp",
+            "imageId": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.8,
+            "ratingCount": 234,
+            "category": "Dim Sum"
+          },
+          {
+            "id": "item_6_3",
+            "name": "Vegetable Spring Rolls",
+            "price": 180,
+            "description": "Crispy rolls filled with fresh vegetables",
+            "imageId": "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 156,
+            "category": "Appetizers"
+          },
+          {
+            "id": "item_6_4",
+            "name": "Sweet & Sour Pork",
+            "price": 350,
+            "description": "Battered pork with pineapple and peppers",
+            "imageId": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 123,
+            "category": "Main Course"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "restaurantId": 7,
+    "restaurantName": "Veggie Garden",
+    "categories": [
+      {
+        "id": "cat_7_1",
+        "name": "Bestsellers",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_7_1",
+            "name": "Buddha Bowl",
+            "price": 250,
+            "description": "Quinoa, roasted vegetables, and tahini dressing",
+            "imageId": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": true,
+            "rating": 4.6,
+            "ratingCount": 189,
+            "category": "Bowls"
+          },
+          {
+            "id": "item_7_2",
+            "name": "Avocado Toast",
+            "price": 180,
+            "description": "Multigrain bread with smashed avocado and seeds",
+            "imageId": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": true,
+            "rating": 4.5,
+            "ratingCount": 234,
+            "category": "Toasts"
+          },
+          {
+            "id": "item_7_3",
+            "name": "Green Smoothie",
+            "price": 150,
+            "description": "Spinach, banana, apple, and almond milk blend",
+            "imageId": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 156,
+            "category": "Beverages"
+          },
+          {
+            "id": "item_7_4",
+            "name": "Kale Caesar Salad",
+            "price": 220,
+            "description": "Fresh kale with vegan caesar dressing and croutons",
+            "imageId": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 123,
+            "category": "Salads"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "restaurantId": 8,
+    "restaurantName": "Falafel Feast",
+    "categories": [
+      {
+        "id": "cat_8_1",
+        "name": "Bestsellers",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_8_1",
+            "name": "Falafel Wrap",
+            "price": 200,
+            "description": "Crispy falafels with hummus and vegetables in pita",
+            "imageId": "https://images.unsplash.com/photo-1593504049359-74330189a345?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": true,
+            "rating": 4.5,
+            "ratingCount": 178,
+            "category": "Wraps"
+          },
+          {
+            "id": "item_8_2",
+            "name": "Hummus Platter",
+            "price": 180,
+            "description": "Traditional hummus with pita bread and vegetables",
+            "imageId": "https://images.unsplash.com/photo-1571197119188-20d01aa5f2e5?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": true,
+            "rating": 4.4,
+            "ratingCount": 156,
+            "category": "Appetizers"
+          },
+          {
+            "id": "item_8_3",
+            "name": "Stuffed Grape Leaves",
+            "price": 220,
+            "description": "Rice and herb stuffed vine leaves",
+            "imageId": "https://images.unsplash.com/photo-1589621316382-008455b857cd?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 98,
+            "category": "Appetizers"
+          },
+          {
+            "id": "item_8_4",
+            "name": "Tabbouleh Salad",
+            "price": 160,
+            "description": "Fresh parsley salad with tomatoes and bulgur",
+            "imageId": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 123,
+            "category": "Salads"
+          }
+        ]
+      },
+      {
+        "id": "cat_8_2",
+        "name": "Main Course",
+        "itemCount": 5,
+        "items": [
+          {
+            "id": "item_8_5",
+            "name": "Shawarma Plate",
+            "price": 280,
+            "description": "Spiced lamb with rice, salad and tahini sauce",
+            "imageId": "https://images.unsplash.com/photo-1605908502724-e4cea2708795?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 145,
+            "category": "Main Course"
+          },
+          {
+            "id": "item_8_6",
+            "name": "Baba Ganoush",
+            "price": 170,
+            "description": "Smoky eggplant dip with olive oil and pomegranate",
+            "imageId": "https://images.unsplash.com/photo-1589621316382-008455b857cd?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.1,
+            "ratingCount": 87,
+            "category": "Appetizers"
+          },
+          {
+            "id": "item_8_7",
+            "name": "Kabab Platter",
+            "price": 320,
+            "description": "Mixed grilled kababs with rice and grilled vegetables",
+            "imageId": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 167,
+            "category": "Main Course"
+          },
+          {
+            "id": "item_8_8",
+            "name": "Fattoush Salad",
+            "price": 190,
+            "description": "Mixed greens with crispy pita chips and sumac dressing",
+            "imageId": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 109,
+            "category": "Salads"
+          },
+          {
+            "id": "item_8_9",
+            "name": "Labneh with Zaatar",
+            "price": 140,
+            "description": "Strained yogurt with herbs and olive oil",
+            "imageId": "https://images.unsplash.com/photo-1571197119188-20d01aa5f2e5?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.0,
+            "ratingCount": 76,
+            "category": "Appetizers"
+          }
+        ]
+      },
+      {
+        "id": "cat_8_3",
+        "name": "Beverages",
+        "itemCount": 3,
+        "items": [
+          {
+            "id": "item_8_10",
+            "name": "Fresh Mint Lemonade",
+            "price": 80,
+            "description": "Refreshing lemon drink with fresh mint",
+            "imageId": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 45,
+            "category": "Beverages"
+          },
+          {
+            "id": "item_8_11",
+            "name": "Turkish Coffee",
+            "price": 60,
+            "description": "Traditional strong coffee with cardamom",
+            "imageId": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.1,
+            "ratingCount": 38,
+            "category": "Beverages"
+          },
+          {
+            "id": "item_8_12",
+            "name": "Pomegranate Juice",
+            "price": 90,
+            "description": "Fresh pomegranate juice with ice",
+            "imageId": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 52,
+            "category": "Beverages"
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "restaurantId": 9,
+    "restaurantName": "Thai Spice Corner",
+    "categories": [
+      {
+        "id": "cat_9_1",
+        "name": "Bestsellers",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_9_1",
+            "name": "Pad Thai",
+            "price": 280,
+            "description": "Stir-fried noodles with shrimp, tofu, and peanuts",
+            "imageId": "https://images.unsplash.com/photo-1559314809-0f31657def5e?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.6,
+            "ratingCount": 234,
+            "category": "Noodles"
+          },
+          {
+            "id": "item_9_2",
+            "name": "Green Curry",
+            "price": 320,
+            "description": "Coconut curry with chicken, eggplant, and basil",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.7,
+            "ratingCount": 189,
+            "category": "Curries"
+          },
+          {
+            "id": "item_9_3",
+            "name": "Tom Yum Soup",
+            "price": 220,
+            "description": "Spicy and sour soup with shrimp and mushrooms",
+            "imageId": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.5,
+            "ratingCount": 156,
+            "category": "Soups"
+          },
+          {
+            "id": "item_9_4",
+            "name": "Mango Sticky Rice",
+            "price": 180,
+            "description": "Sweet coconut rice with fresh mango slices",
+            "imageId": "https://images.unsplash.com/photo-1563379091339-03246963d51a?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 123,
+            "category": "Desserts"
+          }
+        ]
+      },
+      {
+        "id": "cat_9_2",
+        "name": "Curries",
+        "itemCount": 5,
+        "items": [
+          {
+            "id": "item_9_5",
+            "name": "Red Curry",
+            "price": 300,
+            "description": "Spicy red curry with beef and vegetables",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 145,
+            "category": "Curries"
+          },
+          {
+            "id": "item_9_6",
+            "name": "Massaman Curry",
+            "price": 330,
+            "description": "Mild curry with lamb, potatoes, and peanuts",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 167,
+            "category": "Curries"
+          },
+          {
+            "id": "item_9_7",
+            "name": "Panang Curry",
+            "price": 290,
+            "description": "Thick curry with pork and kaffir lime leaves",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 98,
+            "category": "Curries"
+          },
+          {
+            "id": "item_9_8",
+            "name": "Vegetable Green Curry",
+            "price": 260,
+            "description": "Green curry with mixed vegetables and tofu",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.1,
+            "ratingCount": 87,
+            "category": "Curries"
+          },
+          {
+            "id": "item_9_9",
+            "name": "Yellow Curry",
+            "price": 280,
+            "description": "Mild turmeric curry with chicken and potatoes",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.0,
+            "ratingCount": 76,
+            "category": "Curries"
+          }
+        ]
+      },
+      {
+        "id": "cat_9_3",
+        "name": "Stir Fry & Noodles",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_9_10",
+            "name": "Pad See Ew",
+            "price": 260,
+            "description": "Wide noodles with dark soy sauce and Chinese broccoli",
+            "imageId": "https://images.unsplash.com/photo-1559314809-0f31657def5e?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 134,
+            "category": "Noodles"
+          },
+          {
+            "id": "item_9_11",
+            "name": "Thai Basil Chicken",
+            "price": 270,
+            "description": "Stir-fried chicken with holy basil and chili",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 156,
+            "category": "Stir Fry"
+          },
+          {
+            "id": "item_9_12",
+            "name": "Cashew Chicken",
+            "price": 290,
+            "description": "Stir-fried chicken with cashews and vegetables",
+            "imageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 109,
+            "category": "Stir Fry"
+          },
+          {
+            "id": "item_9_13",
+            "name": "Vegetable Pad Thai",
+            "price": 240,
+            "description": "Vegetarian version with tofu and mixed vegetables",
+            "imageId": "https://images.unsplash.com/photo-1559314809-0f31657def5e?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.1,
+            "ratingCount": 92,
+            "category": "Noodles"
+          }
+        ]
+      },
+      {
+        "id": "cat_9_4",
+        "name": "Beverages",
+        "itemCount": 3,
+        "items": [
+          {
+            "id": "item_9_14",
+            "name": "Thai Iced Tea",
+            "price": 90,
+            "description": "Sweet black tea with condensed milk and ice",
+            "imageId": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 67,
+            "category": "Beverages"
+          },
+          {
+            "id": "item_9_15",
+            "name": "Coconut Water",
+            "price": 70,
+            "description": "Fresh coconut water served chilled",
+            "imageId": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.0,
+            "ratingCount": 45,
+            "category": "Beverages"
+          },
+          {
+            "id": "item_9_16",
+            "name": "Lychee Juice",
+            "price": 85,
+            "description": "Sweet lychee juice with ice",
+            "imageId": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 53,
+            "category": "Beverages"
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "restaurantId": 10,
+    "restaurantName": "BBQ Nation",
+    "categories": [
+      {
+        "id": "cat_10_1",
+        "name": "Bestsellers",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_10_1",
+            "name": "BBQ Chicken Wings",
+            "price": 350,
+            "description": "Smoky grilled chicken wings with BBQ sauce",
+            "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.7,
+            "ratingCount": 267,
+            "category": "Appetizers"
+          },
+          {
+            "id": "item_10_2",
+            "name": "Grilled Beef Steak",
+            "price": 650,
+            "description": "Juicy beef steak with herb butter and vegetables",
+            "imageId": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.8,
+            "ratingCount": 189,
+            "category": "Steaks"
+          },
+          {
+            "id": "item_10_3",
+            "name": "Pulled Pork Sandwich",
+            "price": 380,
+            "description": "Slow-cooked pulled pork with coleslaw in brioche bun",
+            "imageId": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": true,
+            "rating": 4.6,
+            "ratingCount": 234,
+            "category": "Sandwiches"
+          },
+          {
+            "id": "item_10_4",
+            "name": "BBQ Ribs",
+            "price": 580,
+            "description": "Fall-off-the-bone pork ribs with signature sauce",
+            "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.5,
+            "ratingCount": 156,
+            "category": "Ribs"
+          }
+        ]
+      },
+      {
+        "id": "cat_10_2",
+        "name": "Steaks & Grills",
+        "itemCount": 5,
+        "items": [
+          {
+            "id": "item_10_5",
+            "name": "Ribeye Steak",
+            "price": 750,
+            "description": "Premium ribeye steak grilled to perfection",
+            "imageId": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.9,
+            "ratingCount": 145,
+            "category": "Steaks"
+          },
+          {
+            "id": "item_10_6",
+            "name": "Grilled Salmon",
+            "price": 520,
+            "description": "Atlantic salmon with lemon butter sauce",
+            "imageId": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 123,
+            "category": "Seafood"
+          },
+          {
+            "id": "item_10_7",
+            "name": "Lamb Chops",
+            "price": 680,
+            "description": "Herb-crusted lamb chops with mint sauce",
+            "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.6,
+            "ratingCount": 167,
+            "category": "Lamb"
+          },
+          {
+            "id": "item_10_8",
+            "name": "Grilled Chicken Breast",
+            "price": 420,
+            "description": "Tender chicken breast with garlic and herbs",
+            "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 198,
+            "category": "Chicken"
+          },
+          {
+            "id": "item_10_9",
+            "name": "Mixed Grill Platter",
+            "price": 850,
+            "description": "Combination of chicken, beef, and lamb with sides",
+            "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.7,
+            "ratingCount": 234,
+            "category": "Platters"
+          }
+        ]
+      },
+      {
+        "id": "cat_10_3",
+        "name": "Sides",
+        "itemCount": 4,
+        "items": [
+          {
+            "id": "item_10_10",
+            "name": "Loaded Potato Skins",
+            "price": 220,
+            "description": "Crispy potato skins with cheese, bacon, and sour cream",
+            "imageId": "https://images.unsplash.com/photo-1541592106381-b31e78637e5b?auto=format&fit=crop&w=400&q=80",
+            "isVeg": false,
+            "isBestseller": false,
+            "rating": 4.4,
+            "ratingCount": 156,
+            "category": "Sides"
+          },
+          {
+            "id": "item_10_11",
+            "name": "Coleslaw",
+            "price": 120,
+            "description": "Fresh cabbage slaw with creamy dressing",
+            "imageId": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.1,
+            "ratingCount": 89,
+            "category": "Sides"
+          },
+          {
+            "id": "item_10_12",
+            "name": "Grilled Corn",
+            "price": 150,
+            "description": "Charred corn on the cob with herb butter",
+            "imageId": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 134,
+            "category": "Sides"
+          },
+          {
+            "id": "item_10_13",
+            "name": "Mac and Cheese",
+            "price": 180,
+            "description": "Creamy macaroni with three cheese blend",
+            "imageId": "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.3,
+            "ratingCount": 167,
+            "category": "Sides"
+          }
+        ]
+      },
+      {
+        "id": "cat_10_4",
+        "name": "Beverages",
+        "itemCount": 3,
+        "items": [
+          {
+            "id": "item_10_14",
+            "name": "Craft Beer",
+            "price": 200,
+            "description": "Selection of local craft beers",
+            "imageId": "https://images.unsplash.com/photo-1608270586620-248524c67de9?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.5,
+            "ratingCount": 78,
+            "category": "Beverages"
+          },
+          {
+            "id": "item_10_15",
+            "name": "Fresh Lemonade",
+            "price": 80,
+            "description": "House-made lemonade with fresh lemons",
+            "imageId": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.2,
+            "ratingCount": 45,
+            "category": "Beverages"
+          },
+          {
+            "id": "item_10_16",
+            "name": "Iced Tea",
+            "price": 60,
+            "description": "Refreshing iced tea with lemon",
+            "imageId": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=400&q=80",
+            "isVeg": true,
+            "isBestseller": false,
+            "rating": 4.0,
+            "ratingCount": 67,
+            "category": "Beverages"
+          }
+        ]
+      }
+    ]
+  }
+}
